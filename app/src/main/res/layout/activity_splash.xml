@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.SplashActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff4b3a">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ellipse_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            app:layout_constraintStart_toStartOf="@id/img1"
+            app:layout_constraintTop_toTopOf="@id/img1" />
+
+        <TextView
+            android:id="@+id/tv_food_for"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:text="@string/food_for"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img1" />
+
+        <TextView
+            android:id="@+id/tv_every"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:text="@string/everyone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_40ssp"
+            android:textStyle="bold|italic"
+            app:layout_constraintTop_toBottomOf="@id/tv_food_for" />
+
+        <ImageView
+            android:id="@+id/img_face_1"
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="@dimen/_290sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:src="@drawable/face1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_every" />
+
+        <ImageView
+            android:id="@+id/img_face_2"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:src="@drawable/face2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_every" />
+
+        <ImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_marginBottom="-15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rectangle_3"
+            app:layout_constraintBottom_toBottomOf="@id/img_face_1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rectangle_5"
+            app:layout_constraintBottom_toBottomOf="@id/img_face_2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvGetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:layout_marginEnd="@dimen/_60sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:background="@drawable/back_gr_tv_radius"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/get_started"
+            android:textColor="#ff4b3a"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="food_for">Food for</string>
+    <string name="everyone">Everyone</string>
+    <string name="get_started">Get started</string>
+    <string name="eat_and_order">Eat and order</string>
+    <string name="hi_huy">Hi Huy</string>
+    <string name="free_ship">Free ship</string>
+    <string name="order_now">Order now</string>
+    <string name="categories">Categories</string>
+    <string name="popular">Popular</string>
+    <string name="home">Home</string>
+    <string name="info_home">Information</string>
+    <string name="support_home">Support</string>
+    <string name="setting_home">Setting</string>
+    <string name="name_category">Name category</string>
+    <string name="popular_name">Popular name</string>
+    <string name="beer_15">Beer: 15</string>
+    <string name="beer">Beer</string>
+    <string name="name_food">Name food</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="description">Description</string>
+    <string name="my_cart">My Cart</string>
+    <string name="items">Items</string>
+    <string name="total">Total</string>
+    <string name="check_out">Check out</string>
+</resources>
